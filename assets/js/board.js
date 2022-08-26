@@ -80,9 +80,10 @@ export default class Board {
                 grid[i][x] = length;
             }
         }
-    } 
+    }
 
     isGameOver() {
+      
         return this.numRemaining === 0;
     }
 }
